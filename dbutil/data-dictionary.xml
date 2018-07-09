@@ -1,0 +1,19 @@
+<data-dictionary>
+    <table name="kutala">
+        <columns>
+            <column name="fname">
+                <datatype>CHAR</datatype>
+                <maxsize>50</maxsize>
+                <nullable>false</nullable>
+            </column>
+            <column name="age">
+                <data-type>INTEGER</data-type>
+            </column>
+        </columns>
+        <primarykey>
+            <column>
+                fname
+            </column>
+        </primarykey>
+    </table>
+</data-dictionary>
